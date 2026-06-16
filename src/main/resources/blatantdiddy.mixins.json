@@ -1,0 +1,52 @@
+{
+  "required": true,
+  "package": "io.github.idksus124dot.blatantdiddy.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AccessorCamera",
+    "AccessorHandledScreen",
+    "AccessorMinecraftClient",
+    "MixinAbstractClientPlayer",
+    "MixinAbstractContainerScreen",
+    "MixinBlockItem",
+    "MixinCamera",
+    "MixinChatComponent",
+    "MixinClientLevel",
+    "MixinClientPacketListener",
+    "MixinCommandSuggestions",
+    "MixinConnection",
+    "MixinEntityRenderer",
+    "MixinGameRenderer",
+    "MixinGui",
+    "MixinHumanoidArmorLayer",
+    "MixinItemInHandRenderer",
+    "MixinKeyboardHandlerHandler",
+    "MixinLevelRenderer",
+    "MixinLightmap",
+    "MixinLoadingOverlay",
+    "MixinLocalPlayer",
+    "MixinMouseHandlerHandler",
+    "MixinMultiPlayerGameMode",
+    "MixinParticleEngine",
+    "MixinScreen",
+    "MixinScreenEffectRenderer",
+    "MixinSoundEngine",
+    "MixinSplashManager",
+    "MixinThrownItemRenderer",
+    "MixinTotemParticle"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "AccessorLivingEntity",
+    "MixinBlock",
+    "MixinEntity",
+    "MixinEntityType",
+    "MixinInventory",
+    "MixinItem",
+    "MixinItemStack",
+    "MixinLivingEntity",
+    "MixinMinecraft"
+  ]
+}
